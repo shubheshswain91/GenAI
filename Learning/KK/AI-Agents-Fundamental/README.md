@@ -173,3 +173,21 @@ Use HuggingFace's free embedding models (no API key required!) to convert text i
 ![alt text](image-32.png)
 ![alt text](image-33.png)
 ![alt text](image-34.png)
+
+## Launch Your LangChain AI Assistant
+
+### Purpose: Deploy and interact with your complete LangChain chatbot via Gradio interface
+
+#### Step 1: Start the Chatbot
+
+cd /root/langchain-chatbot
+chmod +x run.sh
+./run.sh
+
+![alt text](image-35.png)
+
+#### Step 2: See LangChain In Action
+
+![alt text](image-36.png)
+
+
