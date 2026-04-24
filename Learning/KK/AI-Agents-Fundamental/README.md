@@ -86,3 +86,22 @@ Different models excel at different tasks. Choose the right model for speed, cos
 ![alt text](image-13.png)
 
 ![alt text](image-14.png)
+
+## LCEL - Master the LangChain Expression Language
+
+![alt text](image-15.png)
+
+### Sequential Chains - The Pipeline Pattern
+
+💡 Concept:
+LCEL uses the pipe operator | to chain components. Data flows left to right: input → prompt → model → parser → output.
+
+![alt text](image-16.png)
+
+### Parallel Execution - RunnableParallel for Speed
+
+💡 Concept:
+RunnableParallel executes multiple chains concurrently, reducing latency. Perfect for independent operations like generating multiple responses or calling different models simultaneously.
+
+![alt text](image-17.png)
+
