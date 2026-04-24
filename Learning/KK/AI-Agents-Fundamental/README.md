@@ -2,7 +2,7 @@
 
 # Template Transformation Pipeline
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 ## Basic Prompt Templates
 
@@ -24,7 +24,7 @@ Chat templates structure conversations with different message types: system (ins
 💡 Concept:
 Few-shot templates teach the AI by showing examples. The AI learns the pattern from examples and applies it to new inputs.
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 
 ## Advanced Templates - Production Ready
@@ -32,24 +32,24 @@ Few-shot templates teach the AI by showing examples. The AI learns the pattern f
 💡 Concept:
 Advanced features include validation, partial variables, output parsers, and conditional logic for production applications.
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 ## **Caputured Output**
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 ## Model Connection Pipeline
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 ### Your First Model - Getting Started with ChatOpenAI
 
 💡 Concept:
 ChatOpenAI connects to OpenAI-compatible APIs. With our proxy server, you can access multiple models through one interface!
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 ### Talking to Models - Messages System
 
@@ -61,51 +61,51 @@ SYSTEM: You are a helpful assistant
 HUMAN: What's your name?
 AI: I'm your AI assistant!
 
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 
-![alt text](image-8.png)
+![alt text](images/image-8.png)
 
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 
 ### Model Configuration - Fine-tuning Behavior
 
 💡 Concept:
 Control your model's behavior with temperature: 0 = precise & consistent, 1 = creative & varied.
 
-![alt text](image-10.png)
+![alt text](images/image-10.png)
 
-![alt text](image-11.png)
+![alt text](images/image-11.png)
 
-![alt text](image-12.png)
+![alt text](images/image-12.png)
 
 ### Multiple Models - The Right Tool for Each Job
 
 💡 Concept:
 Different models excel at different tasks. Choose the right model for speed, cost, or capability!
 
-![alt text](image-13.png)
+![alt text](images/image-13.png)
 
-![alt text](image-14.png)
+![alt text](images/image-14.png)
 
 ## LCEL - Master the LangChain Expression Language
 
-![alt text](image-15.png)
+![alt text](images/image-15.png)
 
 ### Sequential Chains - The Pipeline Pattern
 
 💡 Concept:
 LCEL uses the pipe operator | to chain components. Data flows left to right: input → prompt → model → parser → output.
 
-![alt text](image-16.png)
+![alt text](images/image-16.png)
 
 ### Parallel Execution - RunnableParallel for Speed
 
 💡 Concept:
 RunnableParallel executes multiple chains concurrently, reducing latency. Perfect for independent operations like generating multiple responses or calling different models simultaneously.
 
-![alt text](image-17.png)
+![alt text](images/image-17.png)
 
-![alt text](image-18.png)
+![alt text](images/image-18.png)
 
 
 ### Dynamic Routing - RunnableLambda & Conditional Logic
@@ -113,9 +113,9 @@ RunnableParallel executes multiple chains concurrently, reducing latency. Perfec
 💡 Concept:
 RunnableLambda allows custom Python functions in chains. Use it for data transformation, conditional routing, or any custom logic between chain steps.
 
-![alt text](image-19.png)
+![alt text](images/image-19.png)
 
-![alt text](image-20.png)
+![alt text](images/image-20.png)
 
 
 ### Advanced LCEL - Streaming, Batch & Error Handling
@@ -123,15 +123,15 @@ RunnableLambda allows custom Python functions in chains. Use it for data transfo
 💡 Concept:
 LCEL provides built-in support for streaming (get tokens as they arrive), batch processing (handle multiple inputs efficiently), and fallback chains for error handling.
 
-![alt text](image-21.png)
+![alt text](images/image-21.png)
 
-![alt text](image-22.png)
+![alt text](images/image-22.png)
 
-![alt text](image-23.png)
+![alt text](images/image-23.png)
 
 ## Memory Systems - Master Conversational Context
 
-![alt text](image-24.png)
+![alt text](images/image-24.png)
 
 ### Memory Fundamentals - Building Conversational Context
 
@@ -142,37 +142,37 @@ Messages in Buffer:
 [3] "What's my name?" ← stored
 → AI recalls: "You're Alice and you like Python"
 
-![alt text](image-25.png)
+![alt text](images/image-25.png)
 
 ### Advanced Memory Types - Smart Context Management
 
-![alt text](image-26.png)
+![alt text](images/image-26.png)
 
-![alt text](image-27.png)
+![alt text](images/image-27.png)
 
-![alt text](image-28.png)
+![alt text](images/image-28.png)
 
 ## Retrieval Augmented Generation (RAG) Pipeline
 
-![alt text](image-29.png)
+![alt text](images/image-29.png)
 
 ### Document Loading & Chunking - Prepare Your Knowledge
 
 💡 Concept:
 Load documents from various sources (text, PDF, web) and split them into manageable chunks for efficient retrieval and processing.
 
-![alt text](image-30.png)
+![alt text](images/image-30.png)
 
 ### Vector Store Creation - Free Embeddings with HuggingFace
 
 💡 Concept:
 Use HuggingFace's free embedding models (no API key required!) to convert text into vectors and store them in FAISS for fast similarity search.
 
-![alt text](image-31.png)
+![alt text](images/image-31.png)
 
-![alt text](image-32.png)
-![alt text](image-33.png)
-![alt text](image-34.png)
+![alt text](images/image-32.png)
+![alt text](images/image-33.png)
+![alt text](images/image-34.png)
 
 ## Launch Your LangChain AI Assistant
 
@@ -184,10 +184,10 @@ cd /root/langchain-chatbot
 chmod +x run.sh
 ./run.sh
 
-![alt text](image-35.png)
+![alt text](images/image-35.png)
 
 #### Step 2: See LangChain In Action
 
-![alt text](image-36.png)
+![alt text](images/image-36.png)
 
 
