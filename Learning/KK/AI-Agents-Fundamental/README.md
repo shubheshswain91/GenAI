@@ -162,3 +162,14 @@ Messages in Buffer:
 Load documents from various sources (text, PDF, web) and split them into manageable chunks for efficient retrieval and processing.
 
 ![alt text](image-30.png)
+
+### Vector Store Creation - Free Embeddings with HuggingFace
+
+💡 Concept:
+Use HuggingFace's free embedding models (no API key required!) to convert text into vectors and store them in FAISS for fast similarity search.
+
+![alt text](image-31.png)
+
+![alt text](image-32.png)
+![alt text](image-33.png)
+![alt text](image-34.png)
