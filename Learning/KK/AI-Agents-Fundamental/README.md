@@ -151,3 +151,14 @@ Messages in Buffer:
 ![alt text](image-27.png)
 
 ![alt text](image-28.png)
+
+## Retrieval Augmented Generation (RAG) Pipeline
+
+![alt text](image-29.png)
+
+### Document Loading & Chunking - Prepare Your Knowledge
+
+💡 Concept:
+Load documents from various sources (text, PDF, web) and split them into manageable chunks for efficient retrieval and processing.
+
+![alt text](image-30.png)
