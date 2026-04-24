@@ -26,6 +26,7 @@ Few-shot templates teach the AI by showing examples. The AI learns the pattern f
 
 ![alt text](image-2.png)
 
+
 ## Advanced Templates - Production Ready
 
 💡 Concept:
