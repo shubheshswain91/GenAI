@@ -143,3 +143,11 @@ Messages in Buffer:
 → AI recalls: "You're Alice and you like Python"
 
 ![alt text](image-25.png)
+
+### Advanced Memory Types - Smart Context Management
+
+![alt text](image-26.png)
+
+![alt text](image-27.png)
+
+![alt text](image-28.png)
