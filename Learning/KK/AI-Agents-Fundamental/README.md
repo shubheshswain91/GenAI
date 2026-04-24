@@ -117,3 +117,14 @@ RunnableLambda allows custom Python functions in chains. Use it for data transfo
 
 ![alt text](image-20.png)
 
+
+### Advanced LCEL - Streaming, Batch & Error Handling
+
+💡 Concept:
+LCEL provides built-in support for streaming (get tokens as they arrive), batch processing (handle multiple inputs efficiently), and fallback chains for error handling.
+
+![alt text](image-21.png)
+
+![alt text](image-22.png)
+
+![alt text](image-23.png)
