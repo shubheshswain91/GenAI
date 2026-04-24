@@ -107,3 +107,13 @@ RunnableParallel executes multiple chains concurrently, reducing latency. Perfec
 
 ![alt text](image-18.png)
 
+
+### Dynamic Routing - RunnableLambda & Conditional Logic
+
+💡 Concept:
+RunnableLambda allows custom Python functions in chains. Use it for data transformation, conditional routing, or any custom logic between chain steps.
+
+![alt text](image-19.png)
+
+![alt text](image-20.png)
+
