@@ -105,3 +105,5 @@ RunnableParallel executes multiple chains concurrently, reducing latency. Perfec
 
 ![alt text](image-17.png)
 
+![alt text](image-18.png)
+
