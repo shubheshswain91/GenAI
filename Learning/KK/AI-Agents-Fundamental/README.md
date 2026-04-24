@@ -40,3 +40,49 @@ Advanced features include validation, partial variables, output parsers, and con
 
 ![alt text](image.png)
 
+## Model Connection Pipeline
+
+![alt text](image-5.png)
+
+### Your First Model - Getting Started with ChatOpenAI
+
+💡 Concept:
+ChatOpenAI connects to OpenAI-compatible APIs. With our proxy server, you can access multiple models through one interface!
+
+![alt text](image-6.png)
+
+### Talking to Models - Messages System
+
+💡 Concept:
+Models understand structured conversations through messages: System (instructions), Human (user), and AI (assistant) messages.
+
+🎭 Message Flow:
+SYSTEM: You are a helpful assistant
+HUMAN: What's your name?
+AI: I'm your AI assistant!
+
+![alt text](image-7.png)
+
+![alt text](image-8.png)
+
+![alt text](image-9.png)
+
+### Model Configuration - Fine-tuning Behavior
+
+💡 Concept:
+Control your model's behavior with temperature: 0 = precise & consistent, 1 = creative & varied.
+
+![alt text](image-10.png)
+
+![alt text](image-11.png)
+
+![alt text](image-12.png)
+
+### Multiple Models - The Right Tool for Each Job
+
+💡 Concept:
+Different models excel at different tasks. Choose the right model for speed, cost, or capability!
+
+![alt text](image-13.png)
+
+![alt text](image-14.png)
