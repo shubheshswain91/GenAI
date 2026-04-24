@@ -128,3 +128,18 @@ LCEL provides built-in support for streaming (get tokens as they arrive), batch 
 ![alt text](image-22.png)
 
 ![alt text](image-23.png)
+
+## Memory Systems - Master Conversational Context
+
+![alt text](image-24.png)
+
+### Memory Fundamentals - Building Conversational Context
+
+📊 How Buffer Memory Works:
+Messages in Buffer:
+[1] "Hi, I'm Alice" ← stored
+[2] "I like Python" ← stored
+[3] "What's my name?" ← stored
+→ AI recalls: "You're Alice and you like Python"
+
+![alt text](image-25.png)
