@@ -246,3 +246,19 @@ Learn patterns: how to handle different scenarios
 🚀 Real Impact: GitHub Copilot uses few-shot learning from your codebase to generate contextually relevant code suggestions!
 
 ![alt text](images/image-39.png)
+
+###  Chain-of-Thought
+
+📚 What is Chain-of-Thought Prompting?
+Definition: Guiding AI through step-by-step reasoning - like teaching a chef to plan a meal from ingredients to plating.
+
+The AI breaks down complex problems into manageable steps.
+
+🧠 The Power of Structured Thinking:
+Without CoT: "Fix the policy" → Vague response
+With CoT: Step 1 → Step 2 → Step 3 → Comprehensive solution!
+🏆 Master Move: OpenAI's GPT-4 uses chain-of-thought internally for math problems, improving accuracy from 26% to 78%!
+
+![alt text](images/image-40.png)
+
+![alt text](images/image-41.png)
