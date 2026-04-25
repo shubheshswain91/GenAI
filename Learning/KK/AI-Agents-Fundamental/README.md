@@ -262,3 +262,9 @@ With CoT: Step 1 → Step 2 → Step 3 → Comprehensive solution!
 ![alt text](images/image-40.png)
 
 ![alt text](images/image-41.png)
+
+### Compare All Techniques
+
+![alt text](images/image-42.png)
+
+![alt text](images/image-43.png)
